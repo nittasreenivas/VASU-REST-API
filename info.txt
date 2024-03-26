@@ -1,0 +1,5 @@
+
+GET /products?title=keyword to filter by title containing "keyword"
+GET /products?category=Electronics to filter by category
+GET /products?sortBy=title to sort by title
+GET /products?page=1&limit=7 to paginate results (default limit is 7)
